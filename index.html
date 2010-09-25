@@ -3,8 +3,12 @@ layout: default
 title: Martin Lundberg
 ---
 
-<ul>
+<ul id="latest">
 {% for post in site.posts limit:5 %}
-<li><a href="{{ post.url }}">{{ post.title }}</a><span>{{ post.date }}</span></li>
+{% unless forloop.first %}
+<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% else %}
+<li><a href="{{ post.url }}"><strong>{{ post.title }}</strong></a></li>
+{% endunless %}
 {% endfor %}
 </ul>
