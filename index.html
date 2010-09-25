@@ -3,4 +3,8 @@ layout: default
 title: Martin Lundberg
 ---
 
-Welcome!
+<ul>
+{% for post in site.posts limit:5 %}
+<li><a href="{{ post.url }}">{{ post.title }}</a><span>{{ post.date }}</span></li>
+{% endfor %}
+</ul>
