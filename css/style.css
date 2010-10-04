@@ -7,10 +7,15 @@ h3 { font-size: 1em; line-height: 1.5em; margin: 1.5em 0; }
 p { margin: 1.5em 0; }
 a { text-decoration: none; font-weight: bold; color: blue; } img { border: 0; }
 
-#wrapper { width: 700px; margin: 0 auto; }
+#wrapper { width: 700px; margin: 80px auto; }
 
-#home { margin: 2.572em; }
+#home { margin: 0 0 40px 0; }
+#home a { color: #000; }
+
+#menu { margin: 40px 0 0 0; padding: 0; }
+#menu li { display: inline; margin-right: 1em; }
+#menu a { color: #111; }
+#copyright { margin: 0; font-size: 14px; }
 
 #latest { margin: 1.5em 0; padding: 0; font-family: Helvetica, Arial, sans-serif; list-style: none; }
 #latest a { font-weight: normal; }
-
