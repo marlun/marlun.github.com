@@ -4,11 +4,11 @@ title: Martin Lundberg
 ---
 
 <ul id="latest">
-{% for post in site.posts limit:5 %}
-{% unless forloop.first %}
-<li><a href="{{ post.url }}">{{ post.title }}</a></li>
-{% else %}
-<li><a href="{{ post.url }}"><strong>{{ post.title }}</strong></a></li>
-{% endunless %}
-{% endfor %}
+	{% for post in site.posts limit:5 %}
+	{% unless forloop.first %}
+	<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+	{% else %}
+	<li><a href="{{ post.url }}"><strong>{{ post.title }}</strong></a></li>
+	{% endunless %}
+	{% endfor %}
 </ul>
