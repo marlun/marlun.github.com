@@ -18,3 +18,5 @@ I work a lot with [smarty templates](http://www.smarty.net/) at work and one of 
 	endif
 
 As the comment says the code is taken from vim's default HTML filetype plugin file.
+
+<p class="date">29 September, 2010</p>

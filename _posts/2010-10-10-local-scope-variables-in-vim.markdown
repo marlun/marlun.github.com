@@ -15,3 +15,5 @@ I've been reading up on vim scripting in the last couple of days. When looking a
 		" Is in a function and look a lot cleaner without a prefix
 		let name = "value"
 	endfunction
+
+<p class="date">10 October, 2010</p>
