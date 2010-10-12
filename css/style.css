@@ -17,8 +17,8 @@ a { text-decoration: none; font-weight: bold; color: blue; } img { border: 0; }
 #menu a { color: #111; }
 #copyright { margin: 0; font-size: 14px; }
 
-#latest { margin: 1.5em 0; padding: 0; font-family: Helvetica, Arial, sans-serif; list-style: none; }
-#latest a { font-weight: normal; }
+#latest, #archive { margin: 1.5em 0; padding: 0; font-family: Helvetica, Arial, sans-serif; list-style: none; }
+#latest a, #archive a { font-weight: normal; }
 
 #related { margin-top: 40px; }
 
