@@ -17,9 +17,9 @@ At work the other day I needed to create a script which would connect to a serve
 	send "yourpassword"
 	expect "sftp>"
 	send "get ./download/* ./files\n"
-	expect "sftpp>"
+	expect "sftp>"
 	exit
 
-An important thing to know is that by default `expect` only waits for 10 seconds before silently timing out. Because I downloaded files which could potentially take more then 10 seconds to download I needed to handle this. After some reading I found that all you needed to do was to add `set timeout <time>` to the script. Setting the time to -1 makes it wait forever.
+An important thing to know is that by default `expect` **only waits for 10 seconds before silently timing out**. Because I downloaded files which could potentially take more then 10 seconds to download I needed to handle this. After some reading I found that all you needed to do was to add `set timeout <time>` to the script. Setting the time to -1 makes it wait forever.
 
 <p class="date">01 February, 2011</p>
