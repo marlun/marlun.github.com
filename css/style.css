@@ -1,16 +1,20 @@
 body { font: normal 100%/1.5 "Garamond Premier Pro", "Palitano Linotype", Palatino, Georgia, serif; color: #000; background-color: #fff; }
 html>body { font-size: 18px; }
 h1, h2, h3 { font-family: Helvetica, Arial, sans-serif; }
-h1 { font-size: 1.167em; line-height: 1.286em; margin: 1.286em 0; }
-h2 { font-size: 1.166em; line-height: 1.286em; margin: 1.286em 0; }
-h3 { font-size: 1em; line-height: 1.5em; margin: 1.5em 0; }
-p { margin: 1.5em 0; }
+h1 { font-size: 1.6em; line-height: 1.286em; margin: 1.286em 0; }
+h2 { font-size: 1.3em; line-height: 1.286em; margin: 2.572em 0 1.286em; }
+h3 { font-size: 1em; line-height: 1.5em; margin: 2em 0 0; }
+p { margin: 0 0 1.5em 0; }
 a { text-decoration: none; font-weight: bold; color: blue; } img { border: 0; }
+pre { margin: 1.5em 0; }
+pre code { font-size: .9em; }
+code { color: #000; }
 
 #wrapper { width: 700px; margin: 80px auto; }
 
 #home { margin: 0 0 60px 0; }
-#home a { color: #000; }
+#home a { color: #bbb; }
+#home a:hover { color: #000; }
 
 #menu { margin: 60px 0 0 0; padding: 0; }
 #menu li { display: inline; margin-right: 1em; }
@@ -20,5 +24,9 @@ a { text-decoration: none; font-weight: bold; color: blue; } img { border: 0; }
 #latest, #archive { margin: 1.5em 0; padding: 0; font-family: Helvetica, Arial, sans-serif; list-style: none; }
 #latest a, #archive a { font-weight: normal; }
 
-#related { margin-top: 40px; }
+#related { margin: 40px 0 2em 0; font-family: Helvetica, Arial, sans-serif; }
 
+#meta { float: right; color: #999; font-size: .9em; }
+#comments { margin-top: 2em; color: #555; }
+
+.note { margin-bottom: 1.5em; font-family: Helvetica, Arial, sans-serif; font-size: .9em; }

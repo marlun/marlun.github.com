@@ -4,24 +4,15 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8">
 		<title>{{ page.title }}</title>
 		<link rel="stylesheet" href="/css/style.css" type="text/css" />
+		<link rel="stylesheet" href="/css/pygments.css" type="text/css" />
 	</head>
 	<body>
 		<div id="wrapper">
+
+			<div id="meta">{{ page.date | date:"%B %e, %Y" }}</div>
+
 			<h2 id="home"><a href="/">Martin Lundberg</a></h2>
 			{{ content }}
-
-			{% if page.comments %}
-			<div id="disqus_thread"></div>
-			<script type="text/javascript">
-				var disqus_url = "http://martinlundberg.com{{ page.url }}";
-				(function() {
-					var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-					dsq.src = 'http://martinlundberg.disqus.com/embed.js';
-					(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-				})();
-			</script>
-			<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=martinlundberg">comments powered by Disqus.</a></noscript>
-			{% endif %}
 
 			<ul id="menu">
 				<li><a href="/">Blog</a></li>
