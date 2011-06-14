@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Alfred - OSX best friend
+categories:
+- software
 ---
-
-{{ page.title }}
-================
 
 I'm a vivid supporter of doing as much as you can with your keyboard and have installed an application launcher with every OS that I've used. On OSX I've tried several but didn't find one I liked until I tried Alfred.
 
@@ -23,5 +22,3 @@ Features which Alfred supports:
  - Emailing contacts (or any email address)
 
 The features I've found myself using the most is of course the application launcher but also, define and spell. Define is great for when you're reading articles on the web. I've also started using the file structure navigation and folder search to quickly move around. I'll probably come back to Alfred when I find new great uses cases.
-
-*This post was written __October 21, 2010__ on my way home from work.*
