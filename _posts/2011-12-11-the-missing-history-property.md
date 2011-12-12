@@ -6,8 +6,6 @@ categories:
 - backbone
 ---
 
-The missing history property
-
 When using Backbone.js with CoffeeScript you can get the following message when trying to run `Backbone.history.start()`:
 
 	TypeError: Cannot call method 'start' of undefined
