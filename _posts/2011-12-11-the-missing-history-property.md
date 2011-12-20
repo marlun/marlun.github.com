@@ -20,4 +20,7 @@ If you do it could be because the constructor of your router has not be executed
 	app = new App()
 	Backbone.history.start()
 
-Can you spot the reason why it didn't work in my case? It was because I created a constructor without calling `super()`. In your classes in CoffeeScript you need to call `super()` for it to call its parent constructor.
+The reason it didn't work in my case was because I created a constructor
+without calling `super()`. In CoffeeScript, parent constructors is called by
+default as long as you don't define a constructor, if you do, you need to call
+`super()`.
