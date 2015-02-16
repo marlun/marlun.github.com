@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cut out those columns in vim
+title: Use cut utility in vim to extract columns
 categories:
 - vim
 - unix
