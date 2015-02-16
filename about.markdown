@@ -7,6 +7,6 @@ title: About
 {{ page.title }}
 ================
 
-I'm a developer and code enthusiast from Sweden. I'll improve this about page as time goes by and thoughts get written or implemented.
+Developer and code enthusiast running the web agency [Problem AB](http://problem.se) in Malmö, Sweden.
 
 [Github](http://github.com/marlun), [Twitter](http://twitter.com/marlun)

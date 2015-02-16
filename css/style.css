@@ -1,19 +1,44 @@
-body { font: normal 100%/1.5 "Garamond Premier Pro", "Palitano Linotype", Palatino, Georgia, serif; color: #000; background-color: #fff; }
-html>body { font-size: 18px; }
-h1, h2, h3 { font-family: Helvetica, Arial, sans-serif; }
-h1 { font-size: 1.6em; line-height: 1.286em; margin: 1.286em 0; }
+body {
+	font: 400 100%/1.4 source-sans-pro, serif;
+	color: #333;
+	background-color: #fff;
+}
+html>body {
+	font-size: 22px;
+}
+h1 {
+	font-size: 1.6em;
+	line-height: 1.286em;
+	margin: 1.286em 0;
+}
 h2 { font-size: 1.3em; line-height: 1.286em; margin: 2.572em 0 1.286em; }
 h3 { font-size: 1em; line-height: 1.5em; margin: 2em 0 0; }
-p { margin: 0 0 1.5em 0; word-spacing: .1em; }
+p {
+	margin: 0 0 1.5em 0;
+	word-spacing: .1em;
+	-moz-osx-font-smoothing: grayscale;
+}
 a { text-decoration: none; font-weight: bold; color: blue; } img { border: 0; }
-pre { margin: 1.5em; }
-pre code { font-size: .9em; }
-code { color: #000; }
+pre {
+	padding: .5em .7em;
+	background-color: #efefef;
+}
+pre code {
+	font: 400 16px/1.3 Inconsolata-g;
+}
+code {
+	font: 400 16px/1.3 Inconsolata-g;
+	color: #000;
+	background-color: #efefef;
+}
 
 #wrapper { width: 700px; margin: 80px auto; }
 
 #home { margin: 0 0 60px 0; }
-#home a { color: #bbb; }
+#home a {
+	color: #000;
+	-moz-osx-font-smoothing: grayscale;
+}
 #home a:hover { color: #000; }
 
 #menu { margin: 60px 0 0 0; padding: 0; }
@@ -21,10 +46,13 @@ code { color: #000; }
 #menu a { color: #111; }
 #copyright { margin: 0; font-size: 14px; }
 
-#latest, #archive { margin: 1.5em 0; padding: 0; font-family: Helvetica, Arial, sans-serif; list-style: none; }
+#latest, #archive { margin: 1.5em 0; padding: 0; list-style: none; }
 #latest a, #archive a { font-weight: normal; }
 
-#related { margin: 40px 0 2em 0; font-family: Helvetica, Arial, sans-serif; }
+#related { margin: 40px 0 2em 0; }
+#related a {
+	font-weight: 400;
+}
 
 #meta { float: right; color: #999; font-size: .9em; }
 #comments { margin-top: 2em; color: #555; }
